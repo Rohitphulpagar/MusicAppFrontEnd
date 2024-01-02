@@ -1,0 +1,137 @@
+.cartPage {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.cartSection {
+  margin-top: 60px;
+}
+.images {
+  margin-left: 15px;
+  height: 28px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+.arrowlogo {
+  font-size: 20px;
+  font-weight: 700;
+}
+.cartItems {
+  margin-top: 20px;
+  width: 100%;
+}
+.cartview {
+  margin-left: 20px;
+  width: 90%;
+  background-color: #dbdbdb;
+}
+.cartItem {
+  width: 100%;
+  display: flex;
+}
+.cartImg {
+  margin: 15px 0px 0px 15px;
+  border-radius: 4px;
+  height: 130px;
+  width: 130px;
+}
+.cartImg img {
+  border-radius: 4px;
+  height: 130px;
+  width: 130px;
+}
+.prductDesc {
+  margin: 15px 0px 0px 10px;
+}
+.prductDesc h2 {
+  margin: 0;
+  font-weight: 500;
+}
+.name {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+}
+.color {
+  margin: 0px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.stock {
+  margin: 0px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.amountSec {
+  position: relative;
+  bottom: 38px;
+  display: flex;
+  justify-content: flex-end;
+}
+.calculate {
+  font-size: 14px;
+  margin-right: 44px;
+  font-weight: 400;
+}
+.amountSec {
+  width: 50%;
+  display: flex;
+  margin-left: 155px;
+  justify-content: space-between;
+}
+.calculates {
+  font-size: 14px;
+  font-weight: 400;
+}
+.amountSect {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 15px;
+}
+.total {
+  margin-right: 90px;
+  font-weight: 400;
+}
+.totals {
+  margin-right: 15px;
+  font-weight: 700;
+}
+.amountSects {
+  margin-left: 20px;
+  margin-top: 25px;
+  border-top: 4px solid #dbdbdb;
+  width: 90%;
+  padding-top: 10px;
+  font-size: 18px;
+}
+.calculatess {
+  font-weight: 700;
+}
+.order {
+  display: flex;
+  justify-content: center;
+}
+.order button {
+  margin-top: 15px;
+  font-weight: 700;
+  width: 90%;
+  border-radius: 8px;
+  font-size: 20px;
+  height: 45px;
+  border: none;
+  background-color: #ffd600;
+}
+.empty {
+  display: flex;
+  justify-content: center;
+  color: red;
+}

@@ -1,0 +1,13 @@
+.footerDiv {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2e0052;
+  height: 1.8vw;
+  width: 100%;
+  color: #fff;
+  font-size: 1.2vw;
+  padding-bottom: 5px;
+}

@@ -1,0 +1,151 @@
+.checkPage {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.checkSection {
+  margin-top: 60px;
+}
+.images {
+  margin-left: 15px;
+  height: 28px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+.arrowlogo {
+  font-size: 20px;
+  font-weight: 700;
+}
+.cartItems {
+  margin-top: 20px;
+  width: 100%;
+}
+.name {
+  margin: 15px 0 0 18px;
+}
+
+.addSec {
+  width: 100%;
+}
+.addTitle {
+  width: 90%;
+  margin: 10px 0 0 20px;
+  color: #b52b00;
+  font-weight: 650;
+}
+.addSec2 {
+  width: 90%;
+  margin-left: 45px;
+}
+.addSec2 p {
+  margin: 4px;
+  color: #797979;
+  font-weight: 400;
+}
+.addPay {
+  margin-top: 15px;
+  border-top: 2px solid #e1e1e1;
+  border-bottom: 2px solid #e1e1e1;
+}
+.addPay2 p {
+  margin: 8px 0 10px 45px;
+  color: #797979;
+  font-weight: 400;
+}
+.addProduct {
+  margin-left: 45px;
+}
+.pdImg {
+  margin-top: 10px;
+  text-align: center;
+  height: 110px;
+  width: 120px;
+  border: 2px solid #2e0052;
+  border-radius: 4px;
+}
+.pdImg img {
+  height: 100px;
+  width: 100px;
+}
+.pdName {
+  font-weight: 700;
+  margin-top: 5px;
+  font-size: 17px;
+}
+.stock {
+  margin: 0;
+  color: #797979;
+  font-weight: 400;
+  margin-top: 4px;
+}
+.pdFeatures {
+  margin: 0;
+  margin-top: 4px;
+  color: #797979;
+  font-weight: 400;
+}
+.dates {
+  margin-top: 7px;
+  margin-left: 45px;
+  padding-bottom: 10px;
+}
+.dates p {
+  margin: 0;
+  font-weight: 600;
+}
+.summary {
+  margin-left: 45px;
+}
+.summary h3 {
+  margin: 0;
+  margin-top: 15px;
+}
+.summaryItem1 {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+  color: #797979;
+  font-weight: 400;
+}
+.sp2 {
+  margin-right: 16px;
+}
+.summaryItem2 {
+  margin-left: 45px;
+  width: 65%;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  color: #b52b00;
+  font-weight: 700;
+}
+.borders {
+  padding-bottom: 15px;
+  border-top: 2px solid #e1e1e1;
+  border-bottom: 2px solid #e1e1e1;
+}
+.order {
+  display: flex;
+  justify-content: center;
+}
+.order button {
+  margin-top: 25px;
+  font-weight: 700;
+  width: 90%;
+  border-radius: 8px;
+  font-size: 20px;
+  height: 45px;
+  border: none;
+  background-color: #ffd600;
+}

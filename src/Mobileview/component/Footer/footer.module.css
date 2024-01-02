@@ -1,0 +1,16 @@
+.footerDiv {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2e0052;
+  height: 45px;
+  width: 100%;
+}
+.footerDiv h4 {
+  margin: 0;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}

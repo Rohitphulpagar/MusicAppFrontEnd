@@ -1,0 +1,85 @@
+.successPage {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.cartSection {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3%;
+}
+.cartSection1 {
+  display: flex;
+  width: 95%;
+  justify-content: space-between;
+}
+.logoSect img {
+  padding-top: 5px;
+  height: 45px;
+}
+.titleSect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.apptitle {
+  font-size: 35px;
+  color: #2e0052;
+  margin-left: 5px;
+  font-weight: 650;
+}
+.homeLink {
+  color: black;
+  font-size: 13px;
+  margin-left: 15px;
+  padding-top: 13px;
+}
+.links {
+  text-decoration: none;
+}
+.centerDiv {
+  display: flex;
+  width: 100%;
+  margin-top: 4%;
+  justify-content: center;
+  align-items: center;
+}
+.centerDiv img {
+  height: 200px;
+  width: 200px;
+  margin-left: 40%;
+  margin-top: 60px;
+}
+.centerDiv div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 550px;
+  width: 900px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+.centerDiv p {
+  margin: 0;
+  color: #969696;
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.centerDiv h1 {
+  margin: 0;
+  margin-top: 25px;
+}
+.centerDiv button {
+  background-color: #2e0052;
+  color: white;
+  margin-top: 35px;
+  height: 55px;
+  width: 400px;
+  border-radius: 14px;
+  font-size: 22px;
+  font-weight: 700;
+}

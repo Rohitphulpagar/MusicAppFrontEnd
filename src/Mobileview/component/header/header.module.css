@@ -1,0 +1,38 @@
+.cartSection {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  background-color: #2e0052;
+}
+.cartSection1 {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+}
+.logoSect img {
+  height: 35px;
+  background-color: #2e0052;
+}
+.titleSect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.apptitle {
+  font-size: 28px;
+  color: #fff;
+  margin-left: 5px;
+  font-weight: 650;
+  padding-bottom: 5px;
+}
+
+.links {
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}

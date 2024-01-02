@@ -1,0 +1,175 @@
+.descPage {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.descPages {
+  margin-top: 60px;
+}
+.images {
+  margin-left: 15px;
+  height: 28px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+.arrowlogo {
+  font-size: 20px;
+  font-weight: 700;
+}
+.buy {
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.buy button {
+  font-weight: 700;
+  width: 90%;
+  border-radius: 8px;
+  font-size: 22px;
+  height: 45px;
+  border: none;
+  background-color: #ffb800;
+}
+
+.sliderPart {
+  height: 250px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+.sliders {
+  border-radius: 8px;
+  margin-left: 5%;
+  margin-top: 15px;
+  height: 240px;
+  width: 87%;
+  border: 3px solid #2e0052;
+}
+.navbtns {
+  margin-left: 10px;
+  display: flex;
+  margin-top: 15px;
+  justify-content: center;
+  color: #a1a1a1;
+}
+.nextbtn {
+  position: relative;
+  margin-right: 95px;
+  color: #a1a1a1;
+  height: 18px;
+  width: 28px;
+  bottom: 7px;
+}
+.nextbtns {
+  color: #a1a1a1;
+}
+.prevbtn {
+  position: relative;
+  color: #a1a1a1;
+  height: 18px;
+  width: 28px;
+  bottom: 7px;
+}
+.details {
+  display: flex;
+  justify-content: center;
+}
+.desc {
+  width: 90%;
+}
+.pdName h1 {
+  margin: 0;
+  margin-top: 5px;
+  font-size: 28px;
+}
+.ratingSec {
+  margin-top: 10px;
+  display: flex;
+}
+.star {
+  font-size: 22px;
+  color: #ffd600;
+}
+.rating {
+  font-weight: 600;
+  margin-left: 10px;
+  font-size: 18px;
+}
+.prodDetails {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.pdColor {
+  margin-top: 8px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.about p {
+  margin: 0;
+  margin-top: 10px;
+  font-size: 18px;
+}
+.about ul {
+  margin: 0;
+  margin-top: 5px;
+  font-size: 16px;
+}
+.stocks {
+  margin-top: 10px;
+  font-size: 20px;
+}
+.available {
+  font-weight: 700;
+}
+.brand {
+  margin-top: 5px;
+  font-size: 20px;
+}
+.brandName {
+  font-weight: 700;
+}
+
+.addbtn {
+  font-weight: 700;
+  width: 100%;
+  border-radius: 8px;
+  font-size: 22px;
+  height: 45px;
+  border: none;
+  background-color: #ffd600;
+}
+.buybtn {
+  font-weight: 700;
+  width: 100%;
+  border-radius: 8px;
+  font-size: 22px;
+  height: 45px;
+  border: none;
+  background-color: #ffb800;
+}
+.logss {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  width: 100%;
+  border-radius: 8px;
+  font-size: 24px;
+  height: 48px;
+  border: none;
+  background-color: #ffb800;
+}
+.links {
+  text-decoration: none;
+}

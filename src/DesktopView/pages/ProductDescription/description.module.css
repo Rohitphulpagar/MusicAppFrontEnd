@@ -1,0 +1,214 @@
+.descriptionPage {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.titleSec {
+  margin-top: 3%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.titles {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+}
+.titleLogo {
+  display: flex;
+  align-items: center;
+}
+.titleLogo img {
+  height: 40px;
+  width: 42px;
+}
+.appName {
+  margin-left: 5px;
+  font-size: 32px;
+  padding-bottom: 5px;
+  color: #2e0052;
+  font-weight: 700;
+}
+.links {
+  text-decoration: none;
+  color: #000;
+  margin-left: 22px;
+}
+.homelink {
+  padding-top: 10px;
+  font-size: 18px;
+}
+.cartbtn {
+  background-color: #1d7000;
+  height: 40px;
+  width: 145px;
+  color: #fff;
+  border-radius: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5px;
+}
+.cartbtn span {
+  color: #fff;
+  font-size: 20px;
+}
+.link {
+  text-decoration: none;
+}
+.homebtn {
+  margin-left: 3.5%;
+  font-size: 18px;
+  height: 35px;
+  width: 180px;
+  background-color: #2e0052;
+  color: #fff;
+  text-align: center;
+  border-radius: 14px;
+  font-weight: 600;
+  padding-top: 5px;
+  margin-top: 15px;
+}
+.pdname {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.pdname div {
+  width: 95%;
+  font-size: 23px;
+  font-weight: 700;
+}
+.sections {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.descPart {
+  width: 95%;
+  display: flex;
+}
+.imgSec {
+  width: 45%;
+}
+.pdImg {
+  text-align: center;
+  margin-top: 12px;
+  border: 7px solid #2e0052;
+  border-radius: 18px;
+  height: 510px;
+  width: 92%;
+}
+.pdImg img {
+  height: 90%;
+  width: 90%;
+}
+.featuredImg {
+  width: 92%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.imgFeature {
+  height: 180px;
+  width: 230px;
+  border-radius: 16px;
+  border: 4px solid #000;
+}
+.featuredImg img {
+  height: 180px;
+  width: 230px;
+  border-radius: 16px;
+}
+.desc {
+  width: 50%;
+}
+.pdName h1 {
+  margin: 0;
+  margin-top: 20px;
+  font-size: 40px;
+}
+.ratingSec {
+  margin-top: 8px;
+  display: flex;
+}
+.star {
+  font-size: 30px;
+  color: #ffd600;
+}
+.rating {
+  font-weight: 600;
+  margin-left: 10px;
+  font-size: 24px;
+}
+.price {
+  margin-top: 5px;
+  font-size: 26px;
+  font-weight: 600;
+}
+.pdColor {
+  margin-top: 5px;
+  font-size: 26px;
+  font-weight: 500;
+}
+.about p {
+  margin: 0;
+  margin-top: 10px;
+  font-size: 24px;
+}
+.about ul {
+  margin: 0;
+  margin-top: 10px;
+  font-size: 22px;
+}
+.stocks {
+  margin-top: 10px;
+  font-size: 24px;
+}
+.available {
+  font-weight: 700;
+}
+.brand {
+  margin-top: 5px;
+  font-size: 24px;
+}
+.brandName {
+  font-weight: 700;
+}
+.btns {
+  margin-top: 18px;
+}
+.addbtn {
+  height: 50px;
+  width: 280px;
+  background-color: #ffd600;
+  font-size: 24px;
+  border: none;
+  font-weight: 700;
+  border-radius: 20px;
+}
+.buybtn {
+  height: 50px;
+  width: 280px;
+  background-color: #ffb800;
+  font-size: 24px;
+  border: none;
+  font-weight: 700;
+  border-radius: 20px;
+}
+.logss {
+  display: block;
+  text-align: center;
+  padding-top: 10px;
+  height: 50px;
+  width: 350px;
+  background-color: #ffb800;
+  font-size: 26px;
+  border: none;
+  font-weight: 700;
+  border-radius: 20px;
+  color: #000;
+}

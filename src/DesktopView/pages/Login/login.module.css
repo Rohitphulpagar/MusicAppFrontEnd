@@ -1,0 +1,109 @@
+.loginPage {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  /* justify-content: center; */
+}
+.loginPage h1 {
+  margin: 0;
+  margin-top: 25px;
+}
+.links {
+  text-decoration: none;
+}
+.logoTag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+.logoTag h1 {
+  margin: 0;
+  color: #2e0052;
+  font-size: 45px;
+}
+.logoTag img {
+  height: 62px;
+  width: 65px;
+  padding-right: 10px;
+}
+.signForm {
+  box-sizing: border-box;
+  margin-top: 40px;
+  width: 600px;
+  height: 450px;
+  border: 3px solid #bdbdbd;
+  border-radius: 14px;
+}
+.signForm1 {
+  margin-left: 30px;
+  margin-top: 10px;
+  height: 100%;
+  width: 100%;
+}
+
+.signForm h1 {
+  margin: 0;
+  margin-top: 10px;
+  font-size: 42px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.signForm input {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  width: 85%;
+  height: 50px;
+  border: 2.5px solid #bdbdbd;
+  border-radius: 8px;
+}
+.labels {
+  font-weight: 700;
+  font-size: 22px;
+}
+.loginbtn {
+  background-color: #2e0052;
+  color: white;
+  width: 86%;
+  height: 55px;
+  border-radius: 8px;
+  font-size: 30px;
+  margin-top: 10px;
+}
+.signForm p {
+  width: 85%;
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.bottomLine {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #bdbdbd;
+}
+.bottomSpan {
+  height: 25px;
+  padding-top: 5px;
+  margin: 0 22px 0 22px;
+  font-weight: 700;
+  color: #000;
+  font-size: 22px;
+}
+.bottombtn {
+  margin-top: 42px;
+  width: 600px;
+  height: 52px;
+  background-color: #fff;
+  font-size: 26px;
+  font-weight: 700;
+  border-radius: 8px;
+  border: 2.2px solid #bdbdbd;
+}

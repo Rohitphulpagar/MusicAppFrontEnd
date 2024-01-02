@@ -1,0 +1,216 @@
+.productPage {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.headers {
+  width: 100%;
+  display: flex;
+  top: 0;
+  height: 50px;
+  background-color: #2e0052;
+}
+.headers div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headers input {
+  height: 28px;
+  width: 85%;
+  padding-left: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  font-weight: 500;
+}
+::placeholder {
+  color: #d9d9d9;
+  font-weight: 600;
+}
+.poster {
+  width: 100%;
+  display: flex;
+}
+.poster div {
+  display: flex;
+  height: 155px;
+  width: 100%;
+  justify-content: center;
+}
+.poster img {
+  width: 90%;
+  height: 140px;
+}
+.selectionsec {
+  width: 100%;
+}
+.selections {
+  width: 100%;
+  display: flex;
+}
+.selectSort {
+  margin-left: 20px;
+  height: 30px;
+}
+.selectSort select {
+  width: 85px;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: end;
+  border-radius: 4px;
+  padding-right: 8px;
+  height: 30px;
+  border: 2px solid #e1e1e1;
+}
+.selectSort option {
+  text-align: left;
+  background-color: #fff;
+}
+.otherSelectSort {
+  display: flex;
+  justify-content: space-between;
+  overflow-x: auto;
+  white-space: nowrap;
+  margin-left: 20px;
+}
+.otherSelectSort::-webkit-scrollbar {
+  display: none;
+}
+
+.selectType select {
+  height: 30px;
+  width: 130px;
+  border: none;
+  background-color: #d9d9d9;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 4px;
+  margin-right: 8px;
+  text-align: center;
+  box-sizing: border-box;
+  padding-left: 5px;
+}
+
+.selectName select {
+  height: 30px;
+  width: 100px;
+  border: none;
+  background-color: #d9d9d9;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 4px;
+  margin-right: 8px;
+  text-align: center;
+  margin-right: 8px;
+  padding: 0;
+  text-align-last: center;
+}
+.selectName option {
+  text-align: left;
+  background-color: #fff;
+}
+.selectPrice option {
+  text-align: left;
+  background-color: #fff;
+}
+.selectColor option {
+  text-align: left;
+  background-color: #fff;
+}
+.selectColor select {
+  height: 30px;
+  width: 70px;
+  border: none;
+  background-color: #d9d9d9;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 4px;
+  margin-right: 8px;
+  text-align: right;
+  padding-right: 5px;
+}
+.selectPrice select {
+  height: 30px;
+  width: 70px;
+  border: none;
+  background-color: #d9d9d9;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 4px;
+  margin-right: 8px;
+  text-align: right;
+  padding-right: 5px;
+}
+.allProductSection1 {
+  border-top: 3px solid #d9d9d9;
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.allProductSection2 {
+  width: 92%;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+}
+.productDiv {
+  margin-top: 15px;
+  height: 230px;
+  width: 165px;
+  border: 2px solid #d9d9d9;
+  border-radius: 4px;
+}
+
+.productImg img {
+  text-align: center;
+  height: 120px;
+  width: 135px;
+  border: 16px solid #d4e5ff;
+  cursor: pointer;
+}
+
+.allProductSection2 h4 {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 700;
+  margin-left: 5px;
+}
+.addcart {
+  color: #1d7000;
+  font-size: 17px;
+  border-radius: 50%;
+  padding-top: 5px;
+  padding-left: 2px;
+  font-weight: 700;
+}
+.productImg span {
+  display: inline-block;
+  text-align: center;
+  height: 23px;
+  width: 23px;
+  background-color: white;
+  border-radius: 50%;
+  position: relative;
+  left: 132px;
+  color: #1d7000;
+  bottom: 34px;
+  cursor: pointer;
+}
+.design {
+  position: relative;
+  bottom: 22px;
+}
+.design p {
+  margin: 0;
+  font-size: 12.2px;
+  margin-left: 5px;
+  font-weight: 650;
+  margin-top: 2px;
+}
+.empty {
+  margin-bottom: 22px;
+}

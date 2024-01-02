@@ -1,0 +1,83 @@
+.footerSec {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  border-top: 3px solid #d2d2d2;
+  height: 62px;
+  width: 100%;
+  align-items: center;
+  background-color: #fff;
+}
+.logo {
+  color: #2e0052;
+  padding-top: 5px;
+  font-size: 25px;
+  width: 35px;
+  font-weight: 700;
+}
+.cartlogo {
+  padding-top: 5px;
+  color: #2e0052;
+  font-size: 32px;
+  width: 35px;
+  font-weight: 700;
+}
+.manlogo {
+  color: #2e0052;
+  font-size: 34px;
+  width: 32px;
+  font-weight: 700;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+.logout {
+  margin: 0;
+  position: relative;
+  bottom: 5px;
+}
+.manlogos {
+  color: #2e0052;
+  font-size: 34px;
+
+  font-weight: 700;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+.excla {
+  position: relative;
+  color: #2e0052;
+  height: 20px;
+  padding-bottom: 7px;
+  right: 5px;
+}
+.login {
+  margin: 0;
+  color: black;
+  font-weight: 700;
+  font-size: 12px;
+  position: relative;
+  bottom: 5px;
+  padding-left: 5px;
+  padding-bottom: 2px;
+}
+.footer {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+}
+.footer p {
+  margin: 0;
+  color: black;
+  font-weight: 700;
+  font-size: 14px;
+}
+.active {
+  border-top: 4px solid #2e0052;
+}
+.logCart {
+  position: relative;
+  bottom: 5px;
+  margin: 0;
+  padding-left: 5px;
+}
